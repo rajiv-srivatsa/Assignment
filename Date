@@ -1,0 +1,11 @@
+
+months=['January','February','March','April','May','June','July','Agust','September','October','November','December']
+ending=['st','nd','rd']+17*['th']+['st','nd','rd']+7*['th']
+date=input('date- ')
+date- 17/01/2001
+month_number=int(date[3:5])
+day_number=int(date[0:2])
+month_name=months[month_number-1]
+o=date[0:2]+ending[day_number-1]
+print(o+' '+month_name+' '+date[6:])
+17th January 2001
